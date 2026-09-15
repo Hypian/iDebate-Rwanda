@@ -34,3 +34,47 @@
   transform: translate(-2px, -2px);
   box-shadow: 4px 4px 0 #D97745;
 }
+
+/* Shared site identity: the vector wordmark remains crisp and legible at every breakpoint. */
+.site-logo {
+  width: 6rem;
+  height: 3.75rem;
+  max-width: none;
+  object-fit: cover;
+  object-position: center;
+}
+
+.dispatch-label {
+  display: none;
+}
+
+@media (min-width: 640px) {
+  .dispatch-label {
+    display: inline;
+  }
+
+  .site-logo {
+    width: 7rem;
+    height: 4rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .site-logo {
+    width: 8rem;
+    height: 4.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .site-logo {
+    width: 11.5rem;
+    height: 5.5rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .site-logo {
+    width: 13rem;
+  }
+}

@@ -19,7 +19,7 @@
   <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-2.5 text-label-caps font-label-caps">
     <div class="flex items-center gap-2.5">
       <span class="w-2 h-2 rounded-full bg-terracotta-sun animate-pulse shrink-0"></span>
-      <span class="tracking-widest uppercase font-bold text-terracotta-sun hidden xs:inline">CIVIC DISPATCH:</span>
+      <span class="dispatch-label tracking-widest uppercase font-bold text-terracotta-sun">CIVIC DISPATCH:</span>
       <span class="tracking-wider text-paper-canvas">2025 NATIONAL DEBATE CALENDAR &amp; REGISTRATIONS ANNOUNCED</span>
     </div>
     <div class="flex items-center gap-4 lg:gap-6 text-paper-surface/90 text-[11px]">
@@ -45,13 +45,8 @@
 <header class="w-full border-b border-border-hairline bg-paper-canvas dark:bg-forest-deep sticky top-0 z-50">
   <div class="max-w-7xl mx-auto px-6 lg:px-16 h-20 lg:h-24 flex items-center justify-between">
     <!-- Brand Identity Anchor -->
-    <a class="flex flex-col group text-decoration-none" href="index.html">
-      <span class="text-headline-md font-headline-md font-bold text-on-surface dark:text-paper-canvas tracking-tight leading-none group-hover:text-primary transition-colors">
-        iDebate Rwanda
-      </span>
-      <span class="text-label-caps font-label-caps text-primary dark:text-terracotta-sun tracking-widest uppercase text-[10px] mt-1">
-        Voice &amp; Leadership Initiative
-      </span>
+    <a class="flex items-center group text-decoration-none" href="index.html">
+      <img class="site-logo shrink-0" src="assets/images/idebate logo.png" width="1500" height="1500" alt="iDebate Rwanda logo" />
     </a>
 
     <!-- Desktop Navigation Cluster -->
@@ -106,7 +101,7 @@
       </a>
       
       <!-- Mobile Menu Hamburger Button -->
-      <button type="button" id="mobile-menu-toggle" aria-label="Toggle Mobile Menu" class="md:hidden p-2 text-on-surface hover:text-primary focus:outline-none bg-transparent border-0 cursor-pointer">
+      <button type="button" id="mobile-menu-toggle" aria-label="Toggle mobile menu" aria-controls="mobile-nav-drawer" aria-expanded="false" class="md:hidden p-2 text-on-surface hover:text-primary focus:outline-none bg-transparent border-0 cursor-pointer">
         <span class="material-symbols-outlined text-[28px]">menu</span>
       </button>
     </div>
