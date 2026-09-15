@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 
 <html lang="en"><head>
 <meta charset="utf-8"/>
@@ -11,139 +11,11 @@
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
 <!-- Tailwind CSS with custom config -->
+<link rel="stylesheet" href="css/site.css"/>
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<script id="tailwind-config">
-    tailwind.config = {
-      darkMode: "class",
-      theme: {
-        extend: {
-          "colors": {
-            "on-tertiary": "#ffffff",
-            "on-secondary-container": "#496a57",
-            "on-error": "#ffffff",
-            "surface-container-high": "#f0e6e1",
-            "inverse-primary": "#ffb596",
-            "surface-bright": "#fff8f5",
-            "surface-dim": "#e2d8d3",
-            "border-hairline": "#DDD3C1",
-            "surface-container-lowest": "#ffffff",
-            "on-surface": "#1f1b18",
-            "tertiary-fixed-dim": "#bcc7de",
-            "tertiary-fixed": "#d8e3fb",
-            "secondary-container": "#c4e8d1",
-            "outline": "#897269",
-            "secondary": "#456553",
-            "on-tertiary-fixed": "#111c2d",
-            "surface-container": "#f6ece7",
-            "surface-container-highest": "#ebe0db",
-            "secondary-fixed": "#c7ebd4",
-            "background": "#fff8f5",
-            "on-tertiary-container": "#fefcff",
-            "paper-surface": "#F2ECE1",
-            "surface": "#fff8f5",
-            "ochre-sand": "#E8B058",
-            "primary": "#9a4111",
-            "on-primary": "#ffffff",
-            "primary-container": "#ba5828",
-            "on-surface-variant": "#56423b",
-            "forest-deep": "#0E2419",
-            "inverse-surface": "#352f2c",
-            "on-error-container": "#93000a",
-            "surface-tint": "#9d4314",
-            "on-secondary-fixed": "#002113",
-            "primary-fixed": "#ffdbcd",
-            "on-primary-fixed-variant": "#7d2d00",
-            "on-secondary-fixed-variant": "#2d4d3c",
-            "surface-variant": "#ebe0db",
-            "outline-variant": "#ddc1b6",
-            "on-primary-container": "#fffbff",
-            "secondary-fixed-dim": "#abcfb8",
-            "terracotta-sun": "#D97745",
-            "paper-canvas": "#FAF7F2",
-            "inverse-on-surface": "#f9efea",
-            "on-tertiary-fixed-variant": "#3c475a",
-            "primary-fixed-dim": "#ffb596",
-            "on-secondary": "#ffffff",
-            "tertiary-container": "#6a758a",
-            "on-background": "#1f1b18",
-            "surface-container-low": "#fcf2ec",
-            "on-primary-fixed": "#360f00",
-            "error": "#ba1a1a",
-            "error-container": "#ffdad6",
-            "tertiary": "#515c71"
-          },
-          "borderRadius": {
-            "DEFAULT": "0px",
-            "none": "0px",
-            "lg": "0px",
-            "xl": "0px",
-            "full": "0px"
-          },
-          "spacing": {
-            "space-xs": "0.375rem",
-            "space-sm": "0.75rem",
-            "space-md": "1.25rem",
-            "space-lg": "2rem",
-            "space-xl": "3.5rem",
-            "margin": "1.25rem",
-            "margin-tablet": "2.5rem",
-            "margin-desktop": "4.5rem",
-            "gutter": "1.5rem",
-            "gutter-desktop": "2.5rem"
-          },
-          "fontFamily": {
-            "label-caps": ["Manrope", "sans-serif"],
-            "headline-sm": ["Newsreader", "serif"],
-            "body-xl": ["Manrope", "sans-serif"],
-            "headline-md": ["Newsreader", "serif"],
-            "quote-display": ["Newsreader", "serif"],
-            "headline-xl-mobile": ["Newsreader", "serif"],
-            "label-md": ["Manrope", "sans-serif"],
-            "display-hero": ["Newsreader", "serif"],
-            "headline-xl": ["Newsreader", "serif"],
-            "body-md": ["Manrope", "sans-serif"],
-            "display-hero-mobile": ["Newsreader", "serif"],
-            "body-lg": ["Manrope", "sans-serif"],
-            "headline-lg": ["Newsreader", "serif"]
-          },
-          "fontSize": {
-            "label-caps": ["12px", { "lineHeight": "16px", "letterSpacing": "0.08em", "fontWeight": "700" }],
-            "headline-sm": ["20px", { "lineHeight": "28px", "fontWeight": "600" }],
-            "body-xl": ["19px", { "lineHeight": "32px", "fontWeight": "400" }],
-            "headline-md": ["24px", { "lineHeight": "32px", "fontWeight": "500" }],
-            "quote-display": ["28px", { "lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "400" }],
-            "headline-xl-mobile": ["30px", { "lineHeight": "38px", "letterSpacing": "-0.01em", "fontWeight": "400" }],
-            "label-md": ["13px", { "lineHeight": "18px", "fontWeight": "600" }],
-            "display-hero": ["56px", { "lineHeight": "64px", "letterSpacing": "-0.02em", "fontWeight": "400" }],
-            "headline-xl": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.015em", "fontWeight": "400" }],
-            "body-md": ["14px", { "lineHeight": "22px", "fontWeight": "400" }],
-            "display-hero-mobile": ["38px", { "lineHeight": "44px", "letterSpacing": "-0.01em", "fontWeight": "400" }],
-            "body-lg": ["16px", { "lineHeight": "26px", "fontWeight": "400" }],
-            "headline-lg": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "500" }]
-          }
-        }
-      }
-    }
-  </script>
-<style>
-    /* Architectural Reset to enforce strict editorial sharpness */
-    * {
-      border-radius: 0 !important;
-    }
-    .hard-offset-hover {
-      transition: transform 0.15s ease, box-shadow 0.15s ease;
-    }
-    .hard-offset-hover:hover {
-      transform: translate(-2px, -2px);
-      box-shadow: 4px 4px 0px #0E2419;
-    }
-    .hard-offset-terracotta:hover {
-      transform: translate(-2px, -2px);
-      box-shadow: 4px 4px 0px #D97745;
-    }
-  </style>
+<script src="js/tailwind.config.js"></script>
 </head>
-<body class="bg-paper-canvas text-on-surface antialiased selection:bg-terracotta-sun selection:text-white min-h-screen flex flex-col font-body-md">
+<body class="editorial-sharp bg-paper-canvas text-on-surface antialiased selection:bg-terracotta-sun selection:text-white min-h-screen flex flex-col font-body-md">
 <!-- 1. TOP DISPATCH BAR -->
 <aside aria-label="Civic Dispatch Announcement" class="w-full bg-forest-deep text-paper-canvas border-b border-border-hairline/20 px-6 lg:px-16 py-2.5 select-none">
   <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-2.5 text-label-caps font-label-caps">
@@ -673,18 +545,8 @@ Every year, iDebate Rwanda recognizes an outstanding debate coach whose dedicati
   </div>
 </footer>
 
-<script>
-  // Shared Mobile Navigation Drawer Toggle Script
-  document.addEventListener('DOMContentLoaded', function() {
-    var toggleBtn = document.getElementById('mobile-menu-toggle');
-    var drawer = document.getElementById('mobile-nav-drawer');
-    if (toggleBtn && drawer) {
-      toggleBtn.addEventListener('click', function() {
-        drawer.classList.toggle('hidden');
-      });
-    }
-  });
-</script>
+<script src="js/site.js"></script>
 
 </body>
 </html>
+
