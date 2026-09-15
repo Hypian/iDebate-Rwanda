@@ -10,11 +10,9 @@
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,500&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
 <!-- Tailwind CSS CDN -->
+<link rel="stylesheet" href="css/tailwind.css"/>
 <link rel="stylesheet" href="css/site.css"/>
-<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<script src="js/tailwind.config.js"></script>
 </head>
 <body class="bg-paper-canvas text-on-surface font-body-md text-body-md antialiased selection:bg-terracotta-sun selection:text-paper-canvas min-h-screen flex flex-col">
 <!-- 1. TOP DISPATCH BAR -->
@@ -285,22 +283,13 @@ Kigali, Rwanda</p>
 <div class="lg:col-span-5 space-y-8" id="map-section">
 <!-- Map Visual Representation Card -->
 <div class="border border-border-hairline bg-paper-canvas overflow-hidden">
-<div class="relative bg-paper-surface border-b border-border-hairline h-64 flex flex-col items-center justify-center p-6 text-center overflow-hidden">
-<!-- Architectural cartographic grid lines -->
-<div class="absolute inset-0 opacity-15 pointer-events-none bg-[linear-gradient(to_right,#897269_1px,transparent_1px),linear-gradient(to_bottom,#897269_1px,transparent_1px)] bg-[size:24px_24px]"></div>
-<!-- Subtle Kigali Map Context Indicator -->
-<div class="relative z-10 flex flex-col items-center">
-<div class="w-14 h-14 bg-forest-deep text-terracotta-sun flex items-center justify-center mb-3 border-2 border-terracotta-sun shadow-sm">
-<span class="material-symbols-outlined text-[28px]" data-icon="location_pin">location_pin</span>
-</div>
-<p class="font-headline-sm text-headline-sm text-on-surface">Ikaze House, Floor 3</p>
-<p class="font-label-caps text-label-caps text-primary tracking-widest uppercase mt-1">24R6+F55 KG 11 Avenue, Kigali</p>
-<p class="text-xs text-outline mt-2 max-w-xs">Easily accessible in Kigali's Gasabo District near prominent educational corridors.</p>
-</div>
-<!-- Cartographic Coordinates stamp -->
-<div class="absolute bottom-2 right-3 font-label-caps text-[10px] text-outline/80 tracking-widest">
-                LAT: -1.9441° S / LON: 30.0619° E
-              </div>
+<div class="relative bg-paper-surface border-b border-border-hairline h-64 overflow-hidden">
+<iframe
+  class="w-full h-full border-0"
+  title="Interactive map showing the iDebate Rwanda office at Ikaze House, Kigali"
+  src="https://www.google.com/maps?q=Ikaze+House%2C+24R6%2BF55+KG+11+Avenue%2C+Kigali%2C+Rwanda&amp;z=16&amp;output=embed"
+  loading="eager"
+  allowfullscreen=""></iframe>
 </div>
 <div class="p-6 bg-paper-canvas flex items-center justify-between">
 <div>

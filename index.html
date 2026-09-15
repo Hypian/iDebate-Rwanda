@@ -14,11 +14,9 @@
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&amp;display=swap" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
 <!-- Tailwind CSS CDN with plugins -->
+<link rel="stylesheet" href="css/tailwind.css"/>
 <link rel="stylesheet" href="css/site.css"/>
-<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<script src="js/tailwind.config.js"></script>
 </head>
 <body class="bg-paper-canvas text-on-surface antialiased selection:bg-primary selection:text-white min-h-screen flex flex-col font-body-md text-body-md">
 <!-- 1. TOP DISPATCH BAR -->
@@ -187,7 +185,7 @@
 <!-- Authentic Photojournalism Preview Card -->
 <div class="border border-border-hairline bg-paper-surface p-2">
 <div class="relative overflow-hidden aspect-[4/3]">
-<img alt="iDebate Rwanda student speaking at the microphone during a national debate championship" class="w-full h-full object-cover hover:scale-105 transition-all duration-500" src="assets/images/YVN_7499-1.jpg"/>
+<img alt="iDebate Rwanda student speaking at the microphone during a national debate championship" class="w-full h-full object-cover hover:scale-105 transition-all duration-500" decoding="async" src="assets/images/YVN_7499-1.jpg"/>
 </div>
 <div class="p-3">
 <p class="font-label-caps text-label-caps text-on-surface-variant text-[11px]">DISPATCH ARCHIVE — KIGALI FORUM</p>
@@ -216,8 +214,8 @@
 <!-- Pillar 1: International Programs -->
 <div class="bg-paper-canvas border border-border-hairline p-8 flex flex-col justify-between hover:border-terracotta-sun transition-colors duration-150 group">
 <div>
-<div class="w-14 h-14 bg-surface-container-low border border-border-hairline flex items-center justify-center mb-6">
-<img alt="International Programs Icon" class="w-8 h-8 object-contain filter contrast-125" src="assets/images/Adelphe-Rugundana-1638x2048.png"/>
+<div class="w-full h-40 bg-surface-container-low border border-border-hairline overflow-hidden mb-6">
+<img alt="iDebate Rwanda students taking part in an international program" class="w-full h-full object-cover object-center" decoding="async" loading="lazy" src="assets/images/YVN_8473-scaled.jpg"/>
 </div>
 <span class="text-label-caps font-label-caps text-terracotta-sun block mb-2">PILLAR 01</span>
 <h3 class="font-headline-sm text-headline-sm text-on-surface mb-4">International Programs</h3>
@@ -233,8 +231,8 @@
 <!-- Pillar 2: Debate Leagues -->
 <div class="bg-paper-canvas border border-border-hairline p-8 flex flex-col justify-between hover:border-terracotta-sun transition-colors duration-150 group">
 <div>
-<div class="w-14 h-14 bg-surface-container-low border border-border-hairline flex items-center justify-center mb-6">
-<img alt="Debate Leagues Icon" class="w-8 h-8 object-contain filter contrast-125" src="assets/images/Rwandanga-Emery-1638x2048.png"/>
+<div class="w-full h-40 bg-surface-container-low border border-border-hairline overflow-hidden mb-6">
+<img alt="iDebate Rwanda student speaking at a debate league event" class="w-full h-full object-cover object-center" decoding="async" loading="lazy" src="assets/images/YVN_7499-1.jpg"/>
 </div>
 <span class="text-label-caps font-label-caps text-terracotta-sun block mb-2">PILLAR 02</span>
 <h3 class="font-headline-sm text-headline-sm text-on-surface mb-4">Debate Leagues</h3>
@@ -250,8 +248,8 @@
 <!-- Pillar 3: Teachers' Debate Institute -->
 <div class="bg-paper-canvas border border-border-hairline p-8 flex flex-col justify-between hover:border-terracotta-sun transition-colors duration-150 group">
 <div>
-<div class="w-14 h-14 bg-surface-container-low border border-border-hairline flex items-center justify-center mb-6">
-<img alt="Teachers' Debate Institute Icon" class="w-8 h-8 object-contain filter contrast-125" src="assets/images/Urukundo-Angelo-1638x2048.png"/>
+<div class="w-full h-40 bg-surface-container-low border border-border-hairline overflow-hidden mb-6">
+<img alt="Teachers collaborating during an iDebate Rwanda workshop" class="w-full h-full object-cover object-center" decoding="async" loading="lazy" src="assets/images/YVN_7609-scaled.jpg"/>
 </div>
 <span class="text-label-caps font-label-caps text-terracotta-sun block mb-2">PILLAR 03</span>
 <h3 class="font-headline-sm text-headline-sm text-on-surface mb-4">Teachers' Debate Institute</h3>
@@ -267,8 +265,8 @@
 <!-- Pillar 4: Student Training -->
 <div class="bg-paper-canvas border border-border-hairline p-8 flex flex-col justify-between hover:border-terracotta-sun transition-colors duration-150 group">
 <div>
-<div class="w-14 h-14 bg-surface-container-low border border-border-hairline flex items-center justify-center mb-6">
-<img alt="Student Training Icon" class="w-8 h-8 object-contain filter contrast-125" src="assets/images/5-2-819x1024.png"/>
+<div class="w-full h-40 bg-surface-container-low border border-border-hairline overflow-hidden mb-6">
+<img alt="iDebate Rwanda students during student training" class="w-full h-full object-cover object-top" decoding="async" loading="lazy" src="assets/images/YVN_7597-scaled.jpg"/>
 </div>
 <span class="text-label-caps font-label-caps text-terracotta-sun block mb-2">PILLAR 04</span>
 <h3 class="font-headline-sm text-headline-sm text-on-surface mb-4">Student Training</h3>
@@ -376,7 +374,7 @@
           </p>
 </div>
 <div class="lg:col-span-5 border border-border-hairline/30 p-2 bg-forest-deep/60">
-<img alt="iDebate Rwanda students smiling and engaged at a national debate event in Kigali" class="w-full h-64 object-cover object-top" src="assets/images/YVN_7597-scaled.jpg"/>
+<img alt="iDebate Rwanda students smiling and engaged at a national debate event in Kigali" class="w-full h-64 object-cover object-top" decoding="async" loading="lazy" src="assets/images/YVN_7597-scaled.jpg"/>
 </div>
 </div>
 </section>

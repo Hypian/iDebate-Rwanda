@@ -1,4 +1,4 @@
-tailwind.config = {
+var siteTailwindConfig = {
   darkMode: 'class',
   theme: {
     extend: {
@@ -108,3 +108,11 @@ tailwind.config = {
     }
   }
 };
+
+if (typeof tailwind !== 'undefined') {
+  tailwind.config = siteTailwindConfig;
+}
+
+if (typeof module !== 'undefined') {
+  module.exports = siteTailwindConfig;
+}
