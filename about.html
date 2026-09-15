@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>About Us | iDebate Rwanda — Our Story, Vision &amp; Leadership</title>
+<meta content="Learn about iDebate Rwanda's founding in 2012, our mission to build peace through critical inquiry, our leadership, and how we empower youth across 30 districts of Rwanda." name="description"/>
+<meta content="about iDebate Rwanda, Jean Michel Habineza, debate in Rwanda, Rwandan youth leadership, civil discourse Kigali, peace education East Africa" name="keywords"/>
+<meta property="og:title" content="About Us | iDebate Rwanda — Our Story, Vision &amp; Leadership"/>
+<meta property="og:description" content="Learn about iDebate Rwanda's founding in 2012, our mission to build peace through critical inquiry, our leadership, and how we empower youth across 30 districts of Rwanda."/>
+<meta property="og:type" content="website"/>
+<!-- Google Fonts & Material Symbols -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS CDN with plugins -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "surface-container-low": "#fcf2ec",
+            "border-hairline": "#DDD3C1",
+            "on-tertiary": "#ffffff",
+            "on-tertiary-fixed": "#111c2d",
+            "on-surface": "#1f1b18",
+            "terracotta-sun": "#D97745",
+            "forest-deep": "#0E2419",
+            "tertiary-fixed-dim": "#bcc7de",
+            "on-primary-container": "#fffbff",
+            "on-error": "#ffffff",
+            "secondary-fixed-dim": "#abcfb8",
+            "surface-bright": "#fff8f5",
+            "ochre-sand": "#E8B058",
+            "on-tertiary-fixed-variant": "#3c475a",
+            "on-background": "#1f1b18",
+            "inverse-primary": "#ffb596",
+            "on-secondary-container": "#496a57",
+            "on-primary-fixed": "#360f00",
+            "inverse-on-surface": "#f9efea",
+            "outline-variant": "#ddc1b6",
+            "primary-fixed": "#ffdbcd",
+            "on-primary-fixed-variant": "#7d2d00",
+            "on-tertiary-container": "#fefcff",
+            "surface-container-lowest": "#ffffff",
+            "on-primary": "#ffffff",
+            "secondary-container": "#c4e8d1",
+            "paper-surface": "#F2ECE1",
+            "tertiary-fixed": "#d8e3fb",
+            "secondary": "#456553",
+            "secondary-fixed": "#c7ebd4",
+            "paper-canvas": "#FAF7F2",
+            "surface-container": "#f6ece7",
+            "tertiary-container": "#6a758a",
+            "surface-variant": "#ebe0db",
+            "on-secondary": "#ffffff",
+            "surface-container-highest": "#ebe0db",
+            "surface-container-high": "#f0e6e1",
+            "on-surface-variant": "#56423b",
+            "on-secondary-fixed": "#002113",
+            "error-container": "#ffdad6",
+            "on-secondary-fixed-variant": "#2d4d3c",
+            "inverse-surface": "#352f2c",
+            "primary": "#9a4111",
+            "surface-tint": "#9d4314",
+            "on-error-container": "#93000a",
+            "surface-dim": "#e2d8d3",
+            "outline": "#897269",
+            "background": "#fff8f5",
+            "primary-container": "#ba5828",
+            "tertiary": "#515c71",
+            "primary-fixed-dim": "#ffb596",
+            "surface": "#fff8f5",
+            "error": "#ba1a1a"
+          },
+          "borderRadius": {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "full": "9999px"
+          },
+          "spacing": {
+            "margin-tablet": "2.5rem",
+            "gutter-desktop": "2.5rem",
+            "space-xs": "0.375rem",
+            "margin-desktop": "4.5rem",
+            "space-xl": "3.5rem",
+            "margin": "1.25rem",
+            "gutter": "1.5rem",
+            "space-lg": "2rem",
+            "space-md": "1.25rem",
+            "space-sm": "0.75rem"
+          },
+          "fontFamily": {
+            "quote-display": ["Newsreader", "serif"],
+            "headline-xl-mobile": ["Newsreader", "serif"],
+            "headline-sm": ["Newsreader", "serif"],
+            "body-xl": ["Manrope", "sans-serif"],
+            "headline-lg": ["Newsreader", "serif"],
+            "body-lg": ["Manrope", "sans-serif"],
+            "display-hero": ["Newsreader", "serif"],
+            "label-md": ["Manrope", "sans-serif"],
+            "body-md": ["Manrope", "sans-serif"],
+            "headline-md": ["Newsreader", "serif"],
+            "label-caps": ["Manrope", "sans-serif"],
+            "display-hero-mobile": ["Newsreader", "serif"],
+            "headline-xl": ["Newsreader", "serif"]
+          },
+          "fontSize": {
+            "quote-display": ["28px", { "lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "400" }],
+            "headline-xl-mobile": ["30px", { "lineHeight": "38px", "letterSpacing": "-0.01em", "fontWeight": "400" }],
+            "headline-sm": ["20px", { "lineHeight": "28px", "fontWeight": "600" }],
+            "body-xl": ["19px", { "lineHeight": "32px", "fontWeight": "400" }],
+            "headline-lg": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "500" }],
+            "body-lg": ["16px", { "lineHeight": "26px", "fontWeight": "400" }],
+            "display-hero": ["56px", { "lineHeight": "64px", "letterSpacing": "-0.02em", "fontWeight": "400" }],
+            "label-md": ["13px", { "lineHeight": "18px", "fontWeight": "600" }],
+            "body-md": ["14px", { "lineHeight": "22px", "fontWeight": "400" }],
+            "headline-md": ["24px", { "lineHeight": "32px", "fontWeight": "500" }],
+            "label-caps": ["12px", { "lineHeight": "16px", "letterSpacing": "0.08em", "fontWeight": "700" }],
+            "display-hero-mobile": ["38px", { "lineHeight": "44px", "letterSpacing": "-0.01em", "fontWeight": "400" }],
+            "headline-xl": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.015em", "fontWeight": "400" }]
+          }
+        }
+      }
+    }
+  </script>
+<style>
+    .material-symbols-outlined {
+      font-family: 'Material Symbols Outlined';
+      font-weight: normal;
+      font-style: normal;
+      font-size: 20px;
+      line-height: 1;
+      letter-spacing: normal;
+      text-transform: none;
+      display: inline-block;
+      white-space: nowrap;
+      word-wrap: normal;
+      direction: ltr;
+      -webkit-font-feature-settings: 'liga';
+      -webkit-font-smoothing: antialiased;
+    }
+  </style>
+</head>
+<body class="bg-paper-canvas text-on-surface antialiased selection:bg-primary selection:text-white min-h-screen flex flex-col font-body-md text-body-md">
+<!-- 1. TOP DISPATCH BAR -->
+<aside aria-label="Civic Dispatch Announcement" class="w-full bg-forest-deep text-paper-canvas border-b border-border-hairline/20 px-6 lg:px-16 py-2.5 select-none">
+  <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-2.5 text-label-caps font-label-caps">
+    <div class="flex items-center gap-2.5">
+      <span class="w-2 h-2 rounded-full bg-terracotta-sun animate-pulse shrink-0"></span>
+      <span class="tracking-widest uppercase font-bold text-terracotta-sun hidden xs:inline">CIVIC DISPATCH:</span>
+      <span class="tracking-wider text-paper-canvas">2025 NATIONAL DEBATE CALENDAR &amp; REGISTRATIONS ANNOUNCED</span>
+    </div>
+    <div class="flex items-center gap-4 lg:gap-6 text-paper-surface/90 text-[11px]">
+      <a class="flex items-center gap-1.5 hover:text-terracotta-sun transition-colors" href="tel:+250790002626">
+        <span class="material-symbols-outlined text-[15px] text-terracotta-sun">call</span>
+        <span>+250 790 002 626</span>
+      </a>
+      <span class="text-border-hairline/40">|</span>
+      <a class="flex items-center gap-1.5 hover:text-terracotta-sun transition-colors" href="mailto:info@debaterwanda.org">
+        <span class="material-symbols-outlined text-[15px] text-terracotta-sun">mail</span>
+        <span>info@debaterwanda.org</span>
+      </a>
+      <span class="text-border-hairline/40 hidden md:inline">|</span>
+      <div class="hidden md:flex items-center gap-1.5 text-ochre-sand">
+        <span class="material-symbols-outlined text-[15px]">public</span>
+        <span>Kigali, Rwanda</span>
+      </div>
+    </div>
+  </div>
+</aside>
+
+<!-- 2. UNIFIED EDITORIAL HEADER & NAVIGATION -->
+<header class="w-full border-b border-border-hairline bg-paper-canvas dark:bg-forest-deep sticky top-0 z-50">
+  <div class="max-w-7xl mx-auto px-6 lg:px-16 h-20 lg:h-24 flex items-center justify-between">
+    <!-- Brand Identity Anchor -->
+    <a class="flex flex-col group text-decoration-none" href="index.html">
+      <span class="text-headline-md font-headline-md font-bold text-on-surface dark:text-paper-canvas tracking-tight leading-none group-hover:text-primary transition-colors">
+        iDebate Rwanda
+      </span>
+      <span class="text-label-caps font-label-caps text-primary dark:text-terracotta-sun tracking-widest uppercase text-[10px] mt-1">
+        Voice &amp; Leadership Initiative
+      </span>
+    </a>
+
+    <!-- Desktop Navigation Cluster -->
+    <nav class="hidden md:flex items-center gap-8 text-body-md font-body-md font-semibold" aria-label="Main Navigation">
+      <a class="text-on-surface-variant dark:text-paper-surface font-medium hover:text-primary dark:hover:text-terracotta-sun transition-colors duration-150 py-1" href="index.html">Home</a>
+      <a class="text-primary dark:text-terracotta-sun border-b-2 border-primary dark:border-terracotta-sun font-semibold pb-1" href="about.html">About</a>
+
+      <!-- Programs Dropdown Menu -->
+      <div class="relative group py-2">
+        <button type="button" class="text-on-surface-variant dark:text-paper-surface font-medium hover:text-primary dark:hover:text-terracotta-sun transition-colors duration-150 py-1 flex items-center gap-1 cursor-pointer focus:outline-none bg-transparent border-0 p-0">
+          <span>Programs</span>
+          <span class="material-symbols-outlined text-[18px] group-hover:rotate-180 transition-transform duration-200">expand_more</span>
+        </button>
+        <div class="absolute top-full left-0 w-64 pt-2 hidden group-hover:block transition-all duration-150 z-50">
+          <div class="bg-paper-surface border border-border-hairline shadow-md p-2 space-y-1">
+            <a class="block px-3 py-2 text-body-md font-body-md text-on-surface hover:bg-surface-container-low hover:text-primary transition-colors" href="student-training.html">
+              Student Training
+            </a>
+            <a class="block px-3 py-2 text-body-md font-body-md text-on-surface hover:bg-surface-container-low hover:text-primary transition-colors" href="debate-league.html">
+              Debate League
+            </a>
+            <a class="block px-3 py-2 text-body-md font-body-md text-on-surface hover:bg-surface-container-low hover:text-primary transition-colors" href="teachers-debate-institute.html">
+              Teachers' Debate Institute
+            </a>
+            <a class="block px-3 py-2 text-body-md font-body-md text-on-surface hover:bg-surface-container-low hover:text-primary transition-colors" href="international-program.html">
+              International Program (US Tour)
+            </a>
+            <a class="block px-3 py-2 text-body-md font-body-md text-on-surface hover:bg-surface-container-low hover:text-primary transition-colors" href="index.html#pillars">
+              All Pillars Overview
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <a class="text-on-surface-variant dark:text-paper-surface font-medium hover:text-primary dark:hover:text-terracotta-sun transition-colors duration-150 py-1" href="about.html#alumni">Alumni</a>
+      <a class="text-on-surface-variant dark:text-paper-surface font-medium hover:text-primary dark:hover:text-terracotta-sun transition-colors duration-150 py-1" href="contact.html">Contact</a>
+    </nav>
+
+    <!-- Trailing Action: Quick Contact & Make Donation CTA -->
+    <div class="flex items-center gap-3 lg:gap-4">
+      <div class="hidden xl:flex items-center gap-2 pr-3 border-r border-border-hairline text-on-surface-variant">
+        <a class="p-1.5 hover:text-primary transition-colors" href="tel:+250790002626" title="Telephone Secretariat">
+          <span class="material-symbols-outlined text-[20px]">call</span>
+        </a>
+        <a class="p-1.5 hover:text-primary transition-colors" href="mailto:info@debaterwanda.org" title="Email Inquiries">
+          <span class="material-symbols-outlined text-[20px]">mail</span>
+        </a>
+      </div>
+      <a class="bg-primary hover:bg-terracotta-sun text-white font-label-caps text-label-caps px-5 lg:px-6 py-3 border border-primary transition-all duration-150 active:scale-[0.99] flex items-center gap-2" href="https://www.every.org/idebate-rwanda-rw" rel="noopener noreferrer" target="_blank">
+        <span>Make Donation</span>
+        <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+      </a>
+      
+      <!-- Mobile Menu Hamburger Button -->
+      <button type="button" id="mobile-menu-toggle" aria-label="Toggle Mobile Menu" class="md:hidden p-2 text-on-surface hover:text-primary focus:outline-none bg-transparent border-0 cursor-pointer">
+        <span class="material-symbols-outlined text-[28px]">menu</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Mobile Drawer Menu -->
+  <div id="mobile-nav-drawer" class="hidden md:hidden border-t border-border-hairline bg-paper-surface px-6 py-5 space-y-4">
+    <div class="flex flex-col space-y-3 font-semibold text-body-md">
+      <a class="text-on-surface hover:text-primary py-1" href="index.html">Home</a>
+      <a class="text-on-surface hover:text-primary py-1" href="about.html">About Us</a>
+      <div class="border-l-2 border-primary pl-3 py-1 space-y-2">
+        <span class="font-label-caps text-xs text-primary uppercase font-bold tracking-wider block">Programs</span>
+        <a class="block text-sm text-on-surface-variant hover:text-primary py-0.5" href="student-training.html">Student Training</a>
+        <a class="block text-sm text-on-surface-variant hover:text-primary py-0.5" href="debate-league.html">Debate League</a>
+        <a class="block text-sm text-on-surface-variant hover:text-primary py-0.5" href="teachers-debate-institute.html">Teachers' Debate Institute</a>
+        <a class="block text-sm text-on-surface-variant hover:text-primary py-0.5" href="international-program.html">International Program (US Tour)</a>
+      </div>
+      <a class="text-on-surface hover:text-primary py-1" href="about.html#alumni">Alumni Impact</a>
+      <a class="text-on-surface hover:text-primary py-1" href="contact.html">Contact</a>
+    </div>
+  </div>
+</header>
+
+<main class="flex-grow">
+<!-- 1. HERO SECTION: THE ARCHIVE OF AN IDEA -->
+<section class="relative border-b border-border-hairline bg-paper-canvas overflow-hidden">
+  <div class="max-w-7xl mx-auto px-6 lg:px-16 py-16 lg:py-24">
+    <!-- Eyebrow Pill -->
+    <div class="inline-flex items-center gap-2 px-3 py-1.5 border border-primary text-primary bg-surface-container-low font-label-caps text-label-caps mb-8">
+      <span class="w-1.5 h-1.5 bg-primary"></span>
+      <span>ESTABLISHED 2012 // KIGALI, RWANDA</span>
+    </div>
+    
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
+      <!-- Left Column: Core Narrative -->
+      <div class="lg:col-span-8 space-y-8">
+        <h1 class="font-display-hero text-display-hero text-on-surface tracking-tight">
+          Cultivating the courage to speak, the patience to listen, and the wisdom to reconcile.
+        </h1>
+        <div class="border-l-2 border-terracotta-sun pl-6 py-2">
+          <p class="font-body-xl text-body-xl text-on-surface-variant leading-relaxed">
+            Founded in 2012 in the aftermath of Rwanda's transformative journey of reconciliation, iDebate Rwanda is an educational civic initiative dedicated to shaping a generation of young Africans who resolve disagreement through rigorous reason rather than hostility.
+          </p>
+        </div>
+        <p class="font-body-lg text-body-lg text-on-surface leading-relaxed">
+          We believe that genuine peace is not simply the polite absence of tension, but the presence of structured, empathetic civil discourse. Across secondary schools in every province, we equip young minds with the dialectical tools to question dogmatism, analyze public policy, and advocate with ethical conviction.
+        </p>
+        
+        <!-- Action Cluster -->
+        <div class="flex flex-wrap items-center gap-4 pt-4 border-t border-border-hairline/60">
+          <a class="bg-forest-deep text-paper-canvas px-6 py-3.5 font-label-caps text-label-caps hover:bg-primary transition-colors duration-150 inline-flex items-center gap-2" href="#origin">
+            <span>Our Genesis &amp; Philosophy</span>
+            <span class="material-symbols-outlined text-[16px]">south</span>
+          </a>
+          <a class="border border-on-surface text-on-surface hover:bg-on-surface hover:text-paper-canvas px-6 py-3.5 font-label-caps text-label-caps transition-colors duration-150" href="#chronicle">
+            <span>Institutional Milestones</span>
+          </a>
+          <a class="border border-primary text-primary hover:bg-primary hover:text-white px-6 py-3.5 font-label-caps text-label-caps transition-colors duration-150" href="#leadership">
+            <span>Leadership &amp; Governance</span>
+          </a>
+        </div>
+      </div>
+      
+      <!-- Right Column: Civic Footprint Monument & Visual Record -->
+      <div class="lg:col-span-4 space-y-6">
+        <!-- Stat Badge Monument -->
+        <div class="bg-paper-surface border border-border-hairline p-8 relative">
+          <div class="absolute -top-3 -right-3 bg-terracotta-sun text-white p-2">
+            <span class="material-symbols-outlined text-[24px]">verified</span>
+          </div>
+          <span class="font-label-caps text-label-caps text-primary block mb-2 uppercase">INSTITUTIONAL RECORD</span>
+          <div class="font-quote-display text-quote-display font-bold text-on-surface text-5xl mb-2">
+            13+
+          </div>
+          <p class="font-headline-sm text-headline-sm text-on-surface font-medium mb-3">Years of Civic Leadership</p>
+          <p class="font-body-md text-body-md text-on-surface-variant border-t border-border-hairline pt-4 leading-relaxed">
+            Sustaining rigorous debate training across all 30 districts of Rwanda, creating a national culture of evidence-based inquiry since 2012.
+          </p>
+        </div>
+
+        <!-- Archival Photojournalism Frame -->
+        <div class="border border-border-hairline bg-paper-surface p-2">
+          <div class="relative overflow-hidden aspect-[4/3] bg-forest-deep">
+            <img alt="iDebate Rwanda students during a national debate championship assembly" class="w-full h-full object-cover grayscale contrast-125 hover:grayscale-0 transition-all duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuADXUIHpgYgMJ-FmDZAHJQYTYpQuGqmRe-Uy2jJUHnZ7HSJjdp5FwX3hCJ8VZDMm0JJuNiLCcBMMPpZMugEcaXSLlgnKhAWvHADea__LPMYX1mpQRKNU87oH2do6Vt6ktLMWrgIQsBK05cEfg8gc1j2r33i_BrjWJj-O-wnR1Z4VMwks_IQqEXGC4IxaIqb9GzAnNSp4NEUzXJIZZWqCrAkzQ8IvY_s6NRXU4MbV5AHD8QK_49h-DO3lQ"/>
+          </div>
+          <div class="p-3">
+            <p class="font-label-caps text-label-caps text-primary text-[11px] uppercase tracking-wider">ARCHIVE DOSSIER — KIGALI FORUM</p>
+            <p class="font-body-md text-body-md text-on-surface italic mt-1 leading-snug">"Teaching youth to disagree without treating the opponent as an enemy."</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 2. FOUR NUMERICAL METRICS STRIP -->
+<section class="border-b border-border-hairline bg-paper-surface">
+  <div class="max-w-7xl mx-auto px-6 lg:px-16 py-12">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 divide-y sm:divide-y-0 sm:divide-x divide-border-hairline">
+      <div class="py-4 sm:py-2 sm:px-6 first:pl-0">
+        <div class="text-headline-xl font-headline-xl text-primary mb-1">2012</div>
+        <div class="text-headline-sm font-headline-sm text-on-surface mb-1 font-medium">Founded in Kigali</div>
+        <p class="text-body-md text-on-surface-variant">Inaugurated with 30 passionate secondary students at the first Dreamers Academy.</p>
+      </div>
+      <div class="py-4 sm:py-2 sm:px-6">
+        <div class="text-headline-xl font-headline-xl text-primary mb-1">30</div>
+        <div class="text-headline-sm font-headline-sm text-on-surface mb-1 font-medium">Districts Reached</div>
+        <p class="text-body-md text-on-surface-variant">Active presence in every administrative district spanning Rwanda's 5 provinces.</p>
+      </div>
+      <div class="py-4 sm:py-2 sm:px-6">
+        <div class="text-headline-xl font-headline-xl text-primary mb-1">100+</div>
+        <div class="text-headline-sm font-headline-sm text-on-surface mb-1 font-medium">Partner Schools</div>
+        <p class="text-body-md text-on-surface-variant">Weekly high school debate clubs sustained in both public and private secondary schools.</p>
+      </div>
+      <div class="py-4 sm:py-2 sm:px-6 last:pr-0">
+        <div class="text-headline-xl font-headline-xl text-primary mb-1">25,000+</div>
+        <div class="text-headline-sm font-headline-sm text-on-surface mb-1 font-medium">Scholars &amp; Teachers</div>
+        <p class="text-body-md text-on-surface-variant">Empowered with research, dialectics, and confident public rhetoric over 13 years.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 3. OUR GENESIS & HISTORICAL CONTEXT -->
+<section class="py-20 lg:py-28 bg-paper-canvas border-b border-border-hairline" id="origin">
+  <div class="max-w-7xl mx-auto px-6 lg:px-16">
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
+      <!-- Left Column: Historical Imperative -->
+      <div class="lg:col-span-6 space-y-6">
+        <span class="font-label-caps text-label-caps text-primary uppercase block">THE HISTORICAL IMPERATIVE</span>
+        <h2 class="font-headline-xl text-headline-xl text-on-surface">
+          Why Debate is an Urgent Tool of Peace in Rwanda
+        </h2>
+        <div class="w-16 h-1 bg-primary"></div>
+        <p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+          In 1994, words were weaponized to orchestrate the Genocide against the Tutsi. Radio broadcasts and political rhetoric incited neighbors against neighbors, demonstrating with horrific clarity the catastrophic power of unexamined propaganda when received by an unquestioning public.
+        </p>
+        <p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+          In the decades of nation-building that followed, Rwandan youth were often taught that maintaining peace meant avoiding contentious conversation altogether. Silence was frequently mistaken for social harmony. But silence leaves young minds vulnerable to dogma and demagoguery.
+        </p>
+        <p class="font-body-lg text-body-lg text-on-surface leading-relaxed font-medium">
+          iDebate Rwanda was established to break that silence constructively. By teaching young scholars how to disagree on complex socio-economic and ethical issues using logic, research, and respect, we create an unshakeable foundation for generational peace.
+        </p>
+      </div>
+
+      <!-- Right Column: The Founder's Reflection & Artifact Frame -->
+      <div class="lg:col-span-6 space-y-6">
+        <div class="bg-forest-deep text-paper-canvas p-8 lg:p-10 border border-border-hairline/30 space-y-6">
+          <div class="flex items-center gap-3">
+            <span class="material-symbols-outlined text-terracotta-sun text-[32px]">format_quote</span>
+            <span class="font-label-caps text-label-caps text-ochre-sand uppercase tracking-wider">FOUNDER'S PERSPECTIVE</span>
+          </div>
+          <blockquote class="font-quote-display text-quote-display text-paper-canvas italic text-[22px] lg:text-[26px] leading-relaxed">
+            “Before we can expect young people to build lasting peace, we must teach them how to handle disagreement. When you learn to defend an idea you personally dislike, you discover the humanity of the person sitting across from you.”
+          </blockquote>
+          <div class="border-t border-border-hairline/20 pt-4 flex items-center justify-between">
+            <div>
+              <p class="font-headline-sm text-paper-canvas font-semibold text-base">Jean Michel Habineza</p>
+              <p class="font-label-caps text-[11px] text-terracotta-sun uppercase tracking-wider">Founder &amp; Executive Director</p>
+            </div>
+            <span class="text-paper-surface/60 font-label-caps text-xs">KIGALI, 2012</span>
+          </div>
+        </div>
+
+        <!-- Archival Monograph Card -->
+        <div class="bg-paper-surface border border-border-hairline p-6 space-y-3">
+          <div class="flex items-center gap-2 text-primary font-label-caps text-label-caps uppercase">
+            <span class="material-symbols-outlined text-[18px]">menu_book</span>
+            <span>PEDAGOGICAL CORE</span>
+          </div>
+          <h3 class="font-headline-sm text-headline-sm text-on-surface">The Dialectical Method</h3>
+          <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            Unlike informal arguments where emotions govern assertions, competitive academic debate enforces strict evidence standards, structured speaking times, and mandatory perspective switching—ensuring debaters examine issues from all angles before reaching conclusions.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 4. FOUR CORE PRINCIPLES OF CIVIC DISCOURSE -->
+<section class="py-20 lg:py-28 bg-paper-surface/60 border-b border-border-hairline" id="principles">
+  <div class="max-w-7xl mx-auto px-6 lg:px-16">
+    <div class="flex flex-col md:flex-row md:items-end justify-between mb-16 pb-6 border-b border-border-hairline gap-4">
+      <div>
+        <span class="font-label-caps text-label-caps text-primary uppercase block mb-2">GUIDING PHILOSOPHY</span>
+        <h2 class="font-headline-xl text-headline-xl text-on-surface">Our Four Foundational Principles</h2>
+      </div>
+      <p class="font-body-lg text-body-lg text-on-surface-variant max-w-md">
+        Every training module, tournament motion, and classroom workshop is anchored in four core intellectual standards.
+      </p>
+    </div>
+
+    <!-- 4-Card Pillar Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <!-- Pillar 1 -->
+      <div class="bg-paper-canvas border border-border-hairline p-8 flex flex-col justify-between hover:border-terracotta-sun transition-colors duration-150 group">
+        <div>
+          <div class="w-12 h-12 bg-surface-container-low border border-border-hairline flex items-center justify-center mb-6 text-primary font-headline-md font-bold">
+            01
+          </div>
+          <span class="text-label-caps font-label-caps text-terracotta-sun block mb-2">UKURI // TRUTH</span>
+          <h3 class="font-headline-sm text-headline-sm text-on-surface mb-3">Rigor in Inquiry</h3>
+          <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-4">
+            No assertion without evidence. We teach scholars to cross-examine primary sources, interrogate statistics, dismantle logical fallacies, and respect verifiable facts.
+          </p>
+        </div>
+        <div class="pt-4 border-t border-border-hairline font-label-caps text-[11px] text-on-surface-variant uppercase tracking-wider">
+          Evidence-Based Advocacy
+        </div>
+      </div>
+
+      <!-- Pillar 2 -->
+      <div class="bg-paper-canvas border border-border-hairline p-8 flex flex-col justify-between hover:border-terracotta-sun transition-colors duration-150 group">
+        <div>
+          <div class="w-12 h-12 bg-surface-container-low border border-border-hairline flex items-center justify-center mb-6 text-primary font-headline-md font-bold">
+            02
+          </div>
+          <span class="text-label-caps font-label-caps text-terracotta-sun block mb-2">KUMVA UNDI // EMPATHY</span>
+          <h3 class="font-headline-sm text-headline-sm text-on-surface mb-3">Perspective-Taking</h3>
+          <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-4">
+            Debaters do not choose their side in competition. To win, they must articulate the strongest possible argument for opposing worldviews—the ultimate antidote to dogmatism.
+          </p>
+        </div>
+        <div class="pt-4 border-t border-border-hairline font-label-caps text-[11px] text-on-surface-variant uppercase tracking-wider">
+          Cognitive Empathy
+        </div>
+      </div>
+
+      <!-- Pillar 3 -->
+      <div class="bg-paper-canvas border border-border-hairline p-8 flex flex-col justify-between hover:border-terracotta-sun transition-colors duration-150 group">
+        <div>
+          <div class="w-12 h-12 bg-surface-container-low border border-border-hairline flex items-center justify-center mb-6 text-primary font-headline-md font-bold">
+            03
+          </div>
+          <span class="text-label-caps font-label-caps text-terracotta-sun block mb-2">URUHARE // ACTION</span>
+          <h3 class="font-headline-sm text-headline-sm text-on-surface mb-3">Civic Agency</h3>
+          <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-4">
+            Eloquence without ethical purpose is hollow. We mentor students to translate debate motions into grassroots community initiatives, environmental action, and policy dialogues.
+          </p>
+        </div>
+        <div class="pt-4 border-t border-border-hairline font-label-caps text-[11px] text-on-surface-variant uppercase tracking-wider">
+          Translating Words to Action
+        </div>
+      </div>
+
+      <!-- Pillar 4 -->
+      <div class="bg-paper-canvas border border-border-hairline p-8 flex flex-col justify-between hover:border-terracotta-sun transition-colors duration-150 group">
+        <div>
+          <div class="w-12 h-12 bg-surface-container-low border border-border-hairline flex items-center justify-center mb-6 text-primary font-headline-md font-bold">
+            04
+          </div>
+          <span class="text-label-caps font-label-caps text-terracotta-sun block mb-2">UBUSABANE // INCLUSION</span>
+          <h3 class="font-headline-sm text-headline-sm text-on-surface mb-3">Radical Inclusivity</h3>
+          <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-4">
+            Democratic speech must never be the monopoly of an elite few. From rural public schools in Nyamagabe to urban academies in Kigali, our platform belongs to all Rwandan youth.
+          </p>
+        </div>
+        <div class="pt-4 border-t border-border-hairline font-label-caps text-[11px] text-on-surface-variant uppercase tracking-wider">
+          Universal Access to Discourse
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 5. HISTORICAL CHRONICLE (2012–2025 MILESTONES) -->
+<section class="py-20 lg:py-28 bg-paper-canvas border-b border-border-hairline" id="chronicle">
+  <div class="max-w-7xl mx-auto px-6 lg:px-16">
+    <div class="max-w-2xl mb-16">
+      <span class="font-label-caps text-label-caps text-terracotta-sun uppercase block mb-2">INSTITUTIONAL TIMELINE</span>
+      <h2 class="font-headline-xl text-headline-xl text-on-surface mb-4">Thirteen Years of Educational Impact</h2>
+      <p class="font-body-lg text-body-lg text-on-surface-variant">
+        Tracing our evolution from a holiday training workshop into a nationally recognized civic institution.
+      </p>
+    </div>
+
+    <!-- Timeline Grid / Stack -->
+    <div class="space-y-8 relative before:absolute before:inset-0 before:left-4 md:before:left-1/2 before:w-0.5 before:bg-border-hairline before:-translate-x-1/2">
+      <!-- Item 1: 2012 -->
+      <div class="relative flex flex-col md:flex-row items-center justify-between gap-8 group">
+        <div class="w-full md:w-[46%] order-2 md:order-1 md:text-right">
+          <div class="bg-paper-surface border border-border-hairline p-8 hover:border-terracotta-sun transition-colors">
+            <span class="text-label-caps font-label-caps text-primary uppercase block mb-1">FOUNDATION</span>
+            <h3 class="font-headline-sm text-headline-sm text-on-surface mb-3">The First Dreamers Academy</h3>
+            <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              In July 2012, Jean Michel Habineza gathered 30 secondary school students in Kigali for an intensive holiday camp focused on public speaking, critical reading, and civil disagreement.
+            </p>
+          </div>
+        </div>
+        <div class="w-10 h-10 rounded-full bg-terracotta-sun text-white font-bold text-xs flex items-center justify-center shrink-0 order-1 md:order-2 z-10 border-4 border-paper-canvas">
+          12
+        </div>
+        <div class="w-full md:w-[46%] order-3 hidden md:block">
+          <span class="text-headline-lg font-headline-lg text-on-surface-variant/40 font-bold">2012</span>
+        </div>
+      </div>
+
+      <!-- Item 2: 2014 -->
+      <div class="relative flex flex-col md:flex-row items-center justify-between gap-8 group">
+        <div class="w-full md:w-[46%] order-3 md:order-1 hidden md:block md:text-right">
+          <span class="text-headline-lg font-headline-lg text-on-surface-variant/40 font-bold">2014</span>
+        </div>
+        <div class="w-10 h-10 rounded-full bg-forest-deep text-paper-canvas font-bold text-xs flex items-center justify-center shrink-0 order-1 md:order-2 z-10 border-4 border-paper-canvas">
+          14
+        </div>
+        <div class="w-full md:w-[46%] order-2 md:order-3">
+          <div class="bg-paper-surface border border-border-hairline p-8 hover:border-terracotta-sun transition-colors">
+            <span class="text-label-caps font-label-caps text-primary uppercase block mb-1">GLOBAL ENGAGEMENT</span>
+            <h3 class="font-headline-sm text-headline-sm text-on-surface mb-3">First Historic US University Tour</h3>
+            <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Six Rwandan debaters embarked on the inaugural "Voices from a Renewed Nation" tour across 25 leading American universities (including Harvard, Dartmouth, and Bates), sharing personal reflections on post-genocide reconstruction.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Item 3: 2016 -->
+      <div class="relative flex flex-col md:flex-row items-center justify-between gap-8 group">
+        <div class="w-full md:w-[46%] order-2 md:order-1 md:text-right">
+          <div class="bg-paper-surface border border-border-hairline p-8 hover:border-terracotta-sun transition-colors">
+            <span class="text-label-caps font-label-caps text-primary uppercase block mb-1">NATIONAL DECENTRALIZATION</span>
+            <h3 class="font-headline-sm text-headline-sm text-on-surface mb-3">Expansion to All 30 Districts</h3>
+            <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              iDebate established official regional league circuits across all five provinces of Rwanda, connecting urban academies with rural secondary schools in a unified competitive calendar.
+            </p>
+          </div>
+        </div>
+        <div class="w-10 h-10 rounded-full bg-terracotta-sun text-white font-bold text-xs flex items-center justify-center shrink-0 order-1 md:order-2 z-10 border-4 border-paper-canvas">
+          16
+        </div>
+        <div class="w-full md:w-[46%] order-3 hidden md:block">
+          <span class="text-headline-lg font-headline-lg text-on-surface-variant/40 font-bold">2016</span>
+        </div>
+      </div>
+
+      <!-- Item 4: 2019 -->
+      <div class="relative flex flex-col md:flex-row items-center justify-between gap-8 group">
+        <div class="w-full md:w-[46%] order-3 md:order-1 hidden md:block md:text-right">
+          <span class="text-headline-lg font-headline-lg text-on-surface-variant/40 font-bold">2019</span>
+        </div>
+        <div class="w-10 h-10 rounded-full bg-forest-deep text-paper-canvas font-bold text-xs flex items-center justify-center shrink-0 order-1 md:order-2 z-10 border-4 border-paper-canvas">
+          19
+        </div>
+        <div class="w-full md:w-[46%] order-2 md:order-3">
+          <div class="bg-paper-surface border border-border-hairline p-8 hover:border-terracotta-sun transition-colors">
+            <span class="text-label-caps font-label-caps text-primary uppercase block mb-1">PEDAGOGICAL INNOVATION</span>
+            <h3 class="font-headline-sm text-headline-sm text-on-surface mb-3">Teachers' Debate Institute (TDI)</h3>
+            <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Recognizing that educators are the true catalysts of student transformation, iDebate launched the accredited TDI, training high school instructors to embed debate methodology directly into daily curriculum delivery.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Item 5: 2022 -->
+      <div class="relative flex flex-col md:flex-row items-center justify-between gap-8 group">
+        <div class="w-full md:w-[46%] order-2 md:order-1 md:text-right">
+          <div class="bg-paper-surface border border-border-hairline p-8 hover:border-terracotta-sun transition-colors">
+            <span class="text-label-caps font-label-caps text-primary uppercase block mb-1">REGIONAL DIALOGUE</span>
+            <h3 class="font-headline-sm text-headline-sm text-on-surface mb-3">Pan-African Civic Dialogues</h3>
+            <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Convening inter-school debaters across Rwanda, Uganda, Kenya, and Tanzania, establishing cross-border youth dialogue on environmental justice, regional trade, and democratic governance.
+            </p>
+          </div>
+        </div>
+        <div class="w-10 h-10 rounded-full bg-terracotta-sun text-white font-bold text-xs flex items-center justify-center shrink-0 order-1 md:order-2 z-10 border-4 border-paper-canvas">
+          22
+        </div>
+        <div class="w-full md:w-[46%] order-3 hidden md:block">
+          <span class="text-headline-lg font-headline-lg text-on-surface-variant/40 font-bold">2022</span>
+        </div>
+      </div>
+
+      <!-- Item 6: 2024–2025 -->
+      <div class="relative flex flex-col md:flex-row items-center justify-between gap-8 group">
+        <div class="w-full md:w-[46%] order-3 md:order-1 hidden md:block md:text-right">
+          <span class="text-headline-lg font-headline-lg text-on-surface-variant/40 font-bold">2025</span>
+        </div>
+        <div class="w-10 h-10 rounded-full bg-primary text-white font-bold text-xs flex items-center justify-center shrink-0 order-1 md:order-2 z-10 border-4 border-paper-canvas">
+          25
+        </div>
+        <div class="w-full md:w-[46%] order-2 md:order-3">
+          <div class="bg-paper-surface border border-border-hairline p-8 hover:border-terracotta-sun transition-colors">
+            <span class="text-label-caps font-label-caps text-primary uppercase block mb-1">SUSTAINED LEADERSHIP</span>
+            <h3 class="font-headline-sm text-headline-sm text-on-surface mb-3">100+ Partner Schools Milestone</h3>
+            <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Reaching over 100 secondary school partnerships nationwide, training 2,000+ debaters and educators annually, and celebrating over 25,000 cumulative alumni actively shaping public life across Africa and beyond.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 6. LEADERSHIP & PEDAGOGICAL COUNCIL -->
+<section class="py-20 lg:py-28 bg-paper-surface/50 border-b border-border-hairline" id="leadership">
+  <div class="max-w-7xl mx-auto px-6 lg:px-16">
+    <div class="flex flex-col md:flex-row md:items-end justify-between mb-16 pb-6 border-b border-border-hairline gap-4">
+      <div>
+        <span class="font-label-caps text-label-caps text-primary uppercase block mb-2">GOVERNANCE &amp; DIRECTORS</span>
+        <h2 class="font-headline-xl text-headline-xl text-on-surface">Institutional Leadership</h2>
+      </div>
+      <p class="font-body-lg text-body-lg text-on-surface-variant max-w-md">
+        Guided by seasoned civic educators, master adjudicators, and prominent alumni leaders.
+      </p>
+    </div>
+
+    <!-- Leadership Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <!-- Leader 1 -->
+      <article class="bg-paper-canvas border border-border-hairline p-8 flex flex-col justify-between">
+        <div>
+          <div class="w-16 h-16 bg-surface-container-low border border-border-hairline rounded-none flex items-center justify-center mb-6">
+            <span class="material-symbols-outlined text-primary text-[32px]">person</span>
+          </div>
+          <span class="font-label-caps text-label-caps text-primary text-[11px] uppercase tracking-wider block mb-1">FOUNDER &amp; DIRECTOR</span>
+          <h3 class="font-headline-sm text-headline-sm text-on-surface mb-3">Jean Michel Habineza</h3>
+          <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-6">
+            Social entrepreneur and Ashoka Fellow. Founded iDebate Rwanda in 2012 to democratize critical thinking and civil dialogue for Rwandan youth across all provinces.
+          </p>
+        </div>
+        <div class="pt-4 border-t border-border-hairline text-xs font-label-caps text-on-surface-variant uppercase tracking-wider">
+          Ashoka Fellow // Civic Educator
+        </div>
+      </article>
+
+      <!-- Leader 2 -->
+      <article class="bg-paper-canvas border border-border-hairline p-8 flex flex-col justify-between">
+        <div>
+          <div class="w-16 h-16 bg-surface-container-low border border-border-hairline rounded-none flex items-center justify-center mb-6">
+            <span class="material-symbols-outlined text-primary text-[32px]">co_present</span>
+          </div>
+          <span class="font-label-caps text-label-caps text-primary text-[11px] uppercase tracking-wider block mb-1">COACHING &amp; ADJUDICATION</span>
+          <h3 class="font-headline-sm text-headline-sm text-on-surface mb-3">Volunteer Coaching Directorate</h3>
+          <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-6">
+            A dedicated network of over 60 university-level alumni and senior debaters who travel weekly to secondary school clubs to mentor the next generation of dialecticians.
+          </p>
+        </div>
+        <div class="pt-4 border-t border-border-hairline text-xs font-label-caps text-on-surface-variant uppercase tracking-wider">
+          60+ Certified Regional Coaches
+        </div>
+      </article>
+
+      <!-- Leader 3 -->
+      <article class="bg-paper-canvas border border-border-hairline p-8 flex flex-col justify-between">
+        <div>
+          <div class="w-16 h-16 bg-surface-container-low border border-border-hairline rounded-none flex items-center justify-center mb-6">
+            <span class="material-symbols-outlined text-primary text-[32px]">school</span>
+          </div>
+          <span class="font-label-caps text-label-caps text-primary text-[11px] uppercase tracking-wider block mb-1">INSTITUTIONAL ADVISORS</span>
+          <h3 class="font-headline-sm text-headline-sm text-on-surface mb-3">Academic Advisory Board</h3>
+          <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-6">
+            Distinguished scholars from the University of Rwanda, international university debate consortia, and secondary school headteachers ensuring rigorous curriculum standards.
+          </p>
+        </div>
+        <div class="pt-4 border-t border-border-hairline text-xs font-label-caps text-on-surface-variant uppercase tracking-wider">
+          Curriculum &amp; Pedagogical Governance
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- 7. ALUMNI PROFILES SECTION -->
+<section class="py-20 lg:py-28 bg-paper-canvas border-b border-border-hairline" id="alumni">
+  <div class="max-w-7xl mx-auto px-6 lg:px-16">
+    <div class="max-w-2xl mb-16">
+      <span class="font-label-caps text-label-caps text-terracotta-sun uppercase block mb-2">GENERATIONS OF IMPACT</span>
+      <h2 class="font-headline-xl text-headline-xl text-on-surface mb-4">Where Are They Now?</h2>
+      <p class="font-body-lg text-body-lg text-on-surface-variant">
+        From high school debate podiums in Kigali to leadership in diplomacy, enterprise, public policy, and the arts across the continent.
+      </p>
+    </div>
+
+    <!-- 3-Column Editorial Cards -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <!-- Card 1: Bruce Ntwali M -->
+      <article class="border border-border-hairline bg-paper-surface flex flex-col justify-between">
+        <div class="p-8">
+          <div class="flex items-center justify-between mb-6 pb-4 border-b border-border-hairline">
+            <div>
+              <h3 class="font-headline-sm text-headline-sm text-on-surface">Bruce Ntwali M</h3>
+              <span class="font-label-caps text-label-caps text-primary text-[11px]">ALUMNUS SPOTLIGHT</span>
+            </div>
+            <div class="w-10 h-10 border border-border-hairline bg-surface-container-low flex items-center justify-center font-quote-display font-bold text-terracotta-sun text-lg">
+              ”
+            </div>
+          </div>
+          <blockquote class="font-quote-display text-quote-display text-on-surface mb-6 italic text-[20px] leading-[30px]">
+            "Known for knowing random facts most people don't spend time reading about. Now a communications consultant and Communications Manager at Rwanda Cooperation Initiative."
+          </blockquote>
+        </div>
+        <div class="bg-surface-container-low px-8 py-4 border-t border-border-hairline flex items-center justify-between">
+          <span class="font-label-caps text-label-caps text-on-surface-variant">RWANDA COOPERATION INITIATIVE</span>
+          <span class="material-symbols-outlined text-[18px] text-primary">work</span>
+        </div>
+      </article>
+
+      <!-- Card 2: Rosette Muhoza -->
+      <article class="border border-border-hairline bg-paper-surface flex flex-col justify-between">
+        <div class="p-8">
+          <div class="flex items-center justify-between mb-6 pb-4 border-b border-border-hairline">
+            <div>
+              <h3 class="font-headline-sm text-headline-sm text-on-surface">Rosette Muhoza</h3>
+              <span class="font-label-caps text-label-caps text-primary text-[11px]">CO-FOUNDER &amp; LEADER</span>
+            </div>
+            <div class="w-10 h-10 border border-border-hairline bg-surface-container-low flex items-center justify-center font-quote-display font-bold text-terracotta-sun text-lg">
+              ”
+            </div>
+          </div>
+          <blockquote class="font-quote-display text-quote-display text-on-surface mb-6 italic text-[20px] leading-[30px]">
+            "A pioneer of the Dreamers Academy Camp (2012). Now Administrative Manager at Irembo and co-founder of My Green Home Rwanda, recycling plastic waste into eco-friendly pavers."
+          </blockquote>
+        </div>
+        <div class="bg-surface-container-low px-8 py-4 border-t border-border-hairline flex items-center justify-between">
+          <span class="font-label-caps text-label-caps text-on-surface-variant">IREMBO / MY GREEN HOME</span>
+          <span class="material-symbols-outlined text-[18px] text-primary">eco</span>
+        </div>
+      </article>
+
+      <!-- Card 3: Christiane Bukuru -->
+      <article class="border border-border-hairline bg-paper-surface flex flex-col justify-between">
+        <div class="p-8">
+          <div class="flex items-center justify-between mb-6 pb-4 border-b border-border-hairline">
+            <div>
+              <h3 class="font-headline-sm text-headline-sm text-on-surface">Christiane Bukuru</h3>
+              <span class="font-label-caps text-label-caps text-primary text-[11px]">ALUMNA &amp; ARTIST</span>
+            </div>
+            <div class="w-10 h-10 border border-border-hairline bg-surface-container-low flex items-center justify-center font-quote-display font-bold text-terracotta-sun text-lg">
+              ”
+            </div>
+          </div>
+          <blockquote class="font-quote-display text-quote-display text-on-surface mb-6 italic text-[20px] leading-[30px]">
+            "Went through iDebate Rwanda in 2013 via LNDC. Now a procurement manager on one of GIZ's programs and an emerging acclaimed local visual artist."
+          </blockquote>
+        </div>
+        <div class="bg-surface-container-low px-8 py-4 border-t border-border-hairline flex items-center justify-between">
+          <span class="font-label-caps text-label-caps text-on-surface-variant">GIZ PROGRAM &amp; LOCAL ARTS</span>
+          <span class="material-symbols-outlined text-[18px] text-primary">palette</span>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- 8. INSTITUTIONAL ALLIANCES & PARTNERS -->
+<section class="py-16 bg-forest-deep text-paper-canvas border-b border-border-hairline">
+  <div class="max-w-7xl mx-auto px-6 lg:px-16">
+    <div class="text-center max-w-2xl mx-auto mb-12">
+      <span class="font-label-caps text-label-caps text-terracotta-sun uppercase tracking-widest block mb-2">EDUCATIONAL ECOSYSTEM</span>
+      <h3 class="font-headline-lg text-headline-lg text-paper-canvas">Our Collaborative Alliances</h3>
+      <p class="font-body-md text-body-md text-paper-surface/80 mt-2">
+        Working alongside domestic institutions and international academic partners to cultivate excellence in civic debate.
+      </p>
+    </div>
+    
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+      <div class="border border-border-hairline/30 p-6 bg-forest-deep/60 flex flex-col items-center justify-center">
+        <span class="font-headline-sm text-paper-canvas font-medium">Rwanda MINEDUC</span>
+        <span class="font-label-caps text-[10px] text-terracotta-sun mt-1 uppercase">Educational Endorsement</span>
+      </div>
+      <div class="border border-border-hairline/30 p-6 bg-forest-deep/60 flex flex-col items-center justify-center">
+        <span class="font-headline-sm text-paper-canvas font-medium">University Tour Consortia</span>
+        <span class="font-label-caps text-[10px] text-terracotta-sun mt-1 uppercase">Harvard, Bates &amp; Dartmouth</span>
+      </div>
+      <div class="border border-border-hairline/30 p-6 bg-forest-deep/60 flex flex-col items-center justify-center">
+        <span class="font-headline-sm text-paper-canvas font-medium">Every.org Non-Profit</span>
+        <span class="font-label-caps text-[10px] text-terracotta-sun mt-1 uppercase">Tax-Deductible Fiscal Sponsor</span>
+      </div>
+      <div class="border border-border-hairline/30 p-6 bg-forest-deep/60 flex flex-col items-center justify-center">
+        <span class="font-headline-sm text-paper-canvas font-medium">East African Circuits</span>
+        <span class="font-label-caps text-[10px] text-terracotta-sun mt-1 uppercase">Regional High School League</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 9. CALL TO ACTION SECTION -->
+<section class="py-20 lg:py-24 bg-paper-surface text-on-surface border-b border-border-hairline relative">
+  <div class="max-w-5xl mx-auto px-6 lg:px-16 text-center space-y-6">
+    <span class="font-label-caps text-label-caps text-primary uppercase tracking-widest">JOIN THE CIVIC MOVEMENT</span>
+    <h2 class="font-headline-xl text-headline-xl text-on-surface font-medium max-w-3xl mx-auto">
+      Help us empower the next generation of African changemakers.
+    </h2>
+    <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
+      Whether as a participating school, a volunteer coach, or an institutional donor, your partnership sustains critical dialogue across Rwanda.
+    </p>
+    <div class="pt-4 flex flex-col sm:flex-row items-center justify-center gap-4">
+      <a class="w-full sm:w-auto bg-primary hover:bg-terracotta-sun text-white font-label-caps text-label-caps px-8 py-4 border border-primary transition-all duration-150 active:scale-[0.99] flex items-center justify-center gap-3" href="student-training.html">
+        <span>Explore Our Programs</span>
+        <span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+      </a>
+      <a class="w-full sm:w-auto border border-on-surface text-on-surface hover:bg-on-surface hover:text-paper-canvas px-8 py-4 font-label-caps text-label-caps transition-colors duration-150 flex items-center justify-center gap-2" href="contact.html">
+        <span>Contact The Secretariat</span>
+        <span class="material-symbols-outlined text-[18px]">mail</span>
+      </a>
+      <a class="w-full sm:w-auto bg-terracotta-sun hover:bg-primary text-white font-label-caps text-label-caps px-8 py-4 transition-all duration-150 flex items-center justify-center gap-2" href="https://www.every.org/idebate-rwanda-rw" rel="noopener noreferrer" target="_blank">
+        <span>Donate via Every.org</span>
+        <span class="material-symbols-outlined text-[18px]">favorite</span>
+      </a>
+    </div>
+  </div>
+</section>
+</main>
+<!-- Unified Editorial Footer (Footer Component) -->
+
+<!-- MONUMENTAL EDITORIAL FOOTER -->
+<footer class="w-full border-t border-border-hairline/20 bg-forest-deep text-paper-canvas px-6 lg:px-16 py-16">
+  <div class="max-w-7xl mx-auto">
+    <!-- Top 4 Columns Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 lg:gap-12 pb-14 border-b border-border-hairline/20">
+      <!-- Column 1: Institutional Statement (4 cols) -->
+      <div class="lg:col-span-4 space-y-4">
+        <a class="flex flex-col group text-decoration-none" href="index.html">
+          <span class="text-headline-md font-headline-md font-bold text-paper-canvas tracking-tight">
+            iDebate Rwanda
+          </span>
+          <span class="text-label-caps font-label-caps text-terracotta-sun uppercase tracking-widest text-[10px] mt-0.5">
+            Voice &amp; Leadership Initiative
+          </span>
+        </a>
+        <p class="font-body-md text-body-md text-paper-surface/80 leading-relaxed max-w-sm">
+          A premier non-governmental organization cultivating critical thinking, civil debate, and ethical public discourse among Rwandan youth and educators since 2012.
+        </p>
+        <div class="pt-2 flex items-center gap-3">
+          <a class="w-9 h-9 border border-border-hairline/40 flex items-center justify-center text-paper-surface hover:text-white hover:border-terracotta-sun hover:bg-terracotta-sun transition-all duration-150" href="tel:+250790002626" title="Call Us">
+            <span class="material-symbols-outlined text-[18px]">call</span>
+          </a>
+          <a class="w-9 h-9 border border-border-hairline/40 flex items-center justify-center text-paper-surface hover:text-white hover:border-terracotta-sun hover:bg-terracotta-sun transition-all duration-150" href="mailto:info@debaterwanda.org" title="Email Secretariat">
+            <span class="material-symbols-outlined text-[18px]">mail</span>
+          </a>
+          <a class="w-9 h-9 border border-border-hairline/40 flex items-center justify-center text-paper-surface hover:text-white hover:border-terracotta-sun hover:bg-terracotta-sun transition-all duration-150" href="contact.html" title="Kigali Office Landmark">
+            <span class="material-symbols-outlined text-[18px]">public</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Column 2: Navigation & Programs (3 cols) -->
+      <div class="lg:col-span-3 space-y-4">
+        <span class="text-label-caps font-label-caps text-terracotta-sun uppercase tracking-widest block">
+          Pillars &amp; Academies
+        </span>
+        <ul class="space-y-2.5 font-body-md text-body-md text-paper-surface/80">
+          <li><a class="hover:text-paper-canvas hover:translate-x-1 transition-all duration-150 inline-block" href="debate-league.html">Debate League</a></li>
+          <li><a class="hover:text-paper-canvas hover:translate-x-1 transition-all duration-150 inline-block" href="teachers-debate-institute.html">Teachers' Debate Institute</a></li>
+          <li><a class="hover:text-paper-canvas hover:translate-x-1 transition-all duration-150 inline-block" href="student-training.html">Student Training</a></li>
+          <li><a class="hover:text-paper-canvas hover:translate-x-1 transition-all duration-150 inline-block" href="international-program.html">International Program (US Tour)</a></li>
+          <li><a class="hover:text-paper-canvas hover:translate-x-1 transition-all duration-150 inline-block" href="about.html#alumni">Alumni Stories</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 3: Headquarters & Contact (2 cols) -->
+      <div class="lg:col-span-2 space-y-4">
+        <span class="text-label-caps font-label-caps text-terracotta-sun uppercase tracking-widest block">
+          Headquarters
+        </span>
+        <div class="font-body-md text-body-md text-paper-surface/80 space-y-3">
+          <p class="leading-relaxed">
+            Ikaze House, Floor 3<br/>
+            24R6+F55 KG 11 Ave<br/>
+            Gasabo Sector, Kigali
+          </p>
+          <p class="pt-1">
+            <strong class="text-paper-canvas block text-xs tracking-wider">DIRECT TELEPHONE</strong>
+            <a class="hover:text-terracotta-sun transition-colors" href="tel:+250790002626">+250 790 002 626</a>
+          </p>
+          <p>
+            <strong class="text-paper-canvas block text-xs tracking-wider">OFFICIAL INQUIRIES</strong>
+            <a class="hover:text-terracotta-sun transition-colors" href="mailto:info@debaterwanda.org">info@debaterwanda.org</a>
+          </p>
+        </div>
+      </div>
+
+      <!-- Column 4: Newsletter Dispatch (3 cols) -->
+      <div class="lg:col-span-3 space-y-4">
+        <span class="text-label-caps font-label-caps text-terracotta-sun uppercase tracking-widest block">
+          The Civic Dispatch
+        </span>
+        <p class="font-body-md text-body-md text-paper-surface/80 leading-relaxed">
+          Receive our educational monographs, debate motion dossiers, and civic leadership reports directly to your inbox.
+        </p>
+        <form class="space-y-2.5" onsubmit="event.preventDefault(); alert('Thank you for subscribing to the iDebate Civic Dispatch.');">
+          <div class="relative">
+            <input class="w-full bg-forest-deep border border-border-hairline/40 text-paper-canvas placeholder-paper-surface/40 px-3.5 py-2.5 text-body-md font-body-md focus:border-terracotta-sun focus:ring-0 focus:outline-none rounded-none" placeholder="Enter your academic email" required="" type="email"/>
+          </div>
+          <button class="w-full bg-terracotta-sun hover:bg-primary text-white font-label-caps text-label-caps py-3 transition-colors duration-150 uppercase tracking-wider text-center cursor-pointer" type="submit">
+            Subscribe to Journal
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Bottom Attribution & Legal -->
+    <div class="pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-body-md font-body-md text-paper-surface/60">
+      <p class="text-center md:text-left text-xs sm:text-sm">
+        &copy; 2025 iDebate Rwanda. Cultivating critical debate, ethical leadership, and civil discourse. All rights reserved.
+      </p>
+      <div class="flex items-center gap-6 text-xs uppercase tracking-wider">
+        <a class="hover:text-paper-canvas transition-colors" href="contact.html">Contact Us</a>
+        <span>•</span>
+        <a class="hover:text-paper-canvas transition-colors" href="about.html">About Us</a>
+        <span>•</span>
+        <a class="hover:text-paper-canvas transition-colors" href="https://www.every.org/idebate-rwanda-rw" target="_blank" rel="noopener noreferrer">Make Donation</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // Shared Mobile Navigation Drawer Toggle Script
+  document.addEventListener('DOMContentLoaded', function() {
+    var toggleBtn = document.getElementById('mobile-menu-toggle');
+    var drawer = document.getElementById('mobile-nav-drawer');
+    if (toggleBtn && drawer) {
+      toggleBtn.addEventListener('click', function() {
+        drawer.classList.toggle('hidden');
+      });
+    }
+  });
+</script>
+
+</body>
+</html>
